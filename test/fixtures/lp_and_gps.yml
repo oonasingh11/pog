@@ -1,11 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  amount: 1.5
   user: one
   company: one
+  role: MyString
+  access: MyString
 
 two:
-  amount: 1.5
   user: two
   company: two
+  role: MyString
+  access: MyString

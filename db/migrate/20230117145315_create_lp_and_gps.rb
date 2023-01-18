@@ -1,6 +1,6 @@
-class CreateLPandGps < ActiveRecord::Migration[7.0]
+class CreateLpAndGps < ActiveRecord::Migration[7.0]
   def change
-    create_table :l_pand_gps do |t|
+    create_table :lp_and_gps do |t|
       t.references :user, null: false, foreign_key: true
       t.references :company, null: false, foreign_key: true
       t.string :role

@@ -1,8 +1,7 @@
 class CreateCommunications < ActiveRecord::Migration[7.0]
   def change
     create_table :communications do |t|
-      t.references :sender, null: false, foreign_key: true
-      t.references :reciever, null: false, foreign_key: true
+      t.references :user, foreign_key: true, null: false, type: :integer, index: true
       t.text :message
 
       t.timestamps

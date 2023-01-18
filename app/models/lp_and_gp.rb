@@ -1,4 +1,4 @@
-class LPandGp < ApplicationRecord
+class LpAndGp < ApplicationRecord
   belongs_to :user
   belongs_to :company
 end

@@ -1,3 +1,3 @@
 class News < ApplicationRecord
-  belongs_to :comapny
+  belongs_to :company
 end
